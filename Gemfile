@@ -22,6 +22,9 @@ group :development, :test do
   gem "pry-doc"
   gem "rubocop-rails"
   gem "rubocop-rspec"
+  gem "faker"
+  gem "factory_bot_rails"
+  gem "rspec-rails"
 end
 
 group :development do
