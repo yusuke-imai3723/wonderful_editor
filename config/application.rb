@@ -1,4 +1,4 @@
-require_relative 'boot'
+require_relative "boot"
 
 require "rails"
 # Pick the frameworks you want:
@@ -31,5 +31,6 @@ module WonderfulEditor
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    g.test_framework :rspec
   end
 end
